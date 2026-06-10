@@ -1,0 +1,93 @@
+.dialogTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-brown);
+  border-bottom: 2px solid var(--honey-yellow);
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dialogPaper {
+  background-color: rgba(253, 251, 247, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(245, 176, 65, 0.3);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.cityList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.cityCard {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  padding: 15px 20px;
+  border-left: 5px solid var(--honey-yellow);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.cityCard:hover {
+  transform: translateX(5px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.cityHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: var(--dark-brown);
+}
+
+.cityHeader h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.cityDetails p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.detailLabel {
+  font-weight: 600;
+  color: var(--dark-brown);
+}
+
+.locationIcon {
+  color: var(--honey-yellow);
+}
+
+.emptyState {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.emptyState p {
+  font-size: 1.1rem;
+  color: #d32f2f;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.emptySubtext {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  display: block;
+}
+
+.dialogActions {
+  justify-content: center;
+  padding-bottom: 15px;
+}

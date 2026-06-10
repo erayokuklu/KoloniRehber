@@ -1,0 +1,94 @@
+.filterCard {
+  height: 100%;
+  background: rgba(253, 251, 247, 0.90);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid rgba(245, 176, 65, 0.3);
+}
+
+
+.title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--dark-brown);
+  border-bottom: 2px solid var(--honey-yellow);
+  padding-bottom: 8px;
+  align-self: center;
+  margin-bottom: 12px;
+}
+
+.cityText {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: var(--dark-brown);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+  min-height: 24px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--dark-brown);
+  margin-bottom: 6px;
+  align-self: flex-start;
+}
+
+.guide {
+  background-color: rgba(245, 176, 65, 0.15);
+  border-left: 4px solid var(--honey-yellow);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.guide h4 {
+  margin: 0 0 10px 0;
+  color: var(--dark-brown);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.guide ol {
+  margin: 0;
+  padding-left: 20px;
+  color: #444;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.guide li {
+  margin-bottom: 6px;
+}
+
+.guide li:last-child {
+  margin-bottom: 0;
+}
+
+.guide strong {
+  color: var(--dark-brown);
+}
+
+.season {
+  width: 100%;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.colony {
+  width: 100%;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
