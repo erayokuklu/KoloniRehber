@@ -17,5 +17,5 @@ Veri Seti: Tarım ve Orman Bakanlığı referanslı özel JSON veri tabanı
 Bu projede kullanılan interaktif Türkiye haritası için GitHub üzerindeki açık kaynaklı SVG haritası projelerinden yararlanılmıştır.
 Emeği geçen tüm açık kaynak geliştiricilerine teşekkür ederiz.
 
-git clone https://github.com/Oeray607/KoloniRehber.git
+git clone https://github.com/erayokuklu/KoloniRehber.git
 cd KoloniRehber
